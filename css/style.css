@@ -55,13 +55,14 @@ nav.menu-mb{
     background-size: 100% 100%;
 }
 
+/*
 nav.menu-mb:hover ul{
     opacity: 1;
 }
+*/
 
 nav.menu-mb ul{
-    opacity: 0;
-    transition: 1s;
+    display: none;
     background-color: white;
     position: absolute;
     width: 100%;
