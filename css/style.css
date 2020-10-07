@@ -255,10 +255,20 @@ section.sessao1 .container{
     background-color: white;
 }
 
-.autor{
-    float: left;
+.scroll{
     max-width: 600px;
     padding-left: 30px;
+    overflow: hidden;
+}
+
+.scroll-wraper{
+    width: 100%;
+}
+
+.autor{
+    float: left;
+    max-width: 100%;
+    padding: 0 30px;
 }
 
 .titulo{
@@ -307,7 +317,7 @@ section.sessao1 .container{
 .slide{
     width: 100%;
     float: left;
-    padding-left: 30px;
+    padding-left: 60px;
     margin-top: 12px;
 }
 
