@@ -427,6 +427,39 @@ section.sessao1 .container{
     border: 5px solid grey;
 }
 
+section.diferenciais{
+    padding: 50px 0;
+}
+
+section.diferenciais > .container > h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #472563;
+}
+
+.box-diferenciais{
+    margin-top: 40px;
+}
+
+.box-single-diferencial{
+    float: left;
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.box-single-diferencial h2{
+    font-size: 45px;
+    text-align: center;
+    color: #472563;
+}
+
+.box-single-diferencial p{
+    font-size: 15px;
+    color: black;
+}
+
+/*******FOOTER*******/
 footer{
     padding: 40px 2%;
     background: #192123;
@@ -556,6 +589,25 @@ footer p:nth-of-type(2){
         width: 100%;
         height: 100%;
         padding-top: 0;
+    }
+
+    section.diferenciais{
+        background: rgb(250, 250, 250);
+    }
+
+    .box-diferenciais{
+        margin: 0;
+    }
+
+    .box-single-diferencial{
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .box-single-diferencial p{
+        display: inline-block;
+        max-width: 500px;
     }
 
 }

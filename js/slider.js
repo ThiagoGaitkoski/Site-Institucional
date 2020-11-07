@@ -39,7 +39,7 @@ $(function(){
     }
 
     $(window).resize(function(){
-        $('.scroll').stop().animate()({'scrollLeft':0});; 
+        $('.scroll').stop().animate({'scrollLeft':0}); 
     })
 
 })
